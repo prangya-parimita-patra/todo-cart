@@ -10,15 +10,22 @@ import './App.css';
 
 function App() {
   return (
+    // Wrap the entire application with CartContextProvider and TodoContextProvider
     <CartContextProvider>
-      <TodoContextProvider> 
+      <TodoContextProvider>
+        {/* Set up the React Router */}
         <Router>
           <div className="App">
+            {/* Render the Header component at the top */}
             <Header />
+            {/* Define routes for different pages */}
             <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/about" element={<About/>} />
-              <Route path="/contact" element={<Contact/>} />
+              {/* Route for the Home page */}
+              <Route path="/" element={<Home />} />
+              {/* Route for the About page */}
+              <Route path="/about" element={<About />} />
+              {/* Route for the Contact page */}
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>
         </Router>
