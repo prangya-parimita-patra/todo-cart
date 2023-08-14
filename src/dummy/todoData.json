@@ -1,0 +1,9 @@
+[
+    { "id": 1, "task": "Complete project", "completed": false },
+    { "id": 2, "task": "Exercise", "completed": true },
+    { "id": 3, "task": "Read a book", "completed": false },
+    { "id": 4, "task": "Buy groceries", "completed": false },
+    { "id": 5, "task": "Call mom", "completed": false },
+    { "id": 6, "task": "Finish presentation", "completed": true }
+  ]
+  
